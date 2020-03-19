@@ -1,4 +1,4 @@
-public class Oppg2 {
+public class OppgEn2 {
 
     public static int pow(int base, int exponent){
 

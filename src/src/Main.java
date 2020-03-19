@@ -2,17 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Oppg1 oppg1 = new Oppg1();
+        OppgEn1 oppgEn1 = new OppgEn1();
 
         System.out.println("Oppgave1: ");
 
-        oppg1.sum(10);
+        oppgEn1.sum(10);
 
         System.out.println("\n" + "Oppgave2: ");
 
-        Oppg2 oppg2 = new Oppg2();
+        OppgEn2 oppgEn2 = new OppgEn2();
 
-        System.out.println("Summen av base^exponent blir: " + oppg2.pow(2,3));
+        System.out.println("Summen av base^exponent blir: " + oppgEn2.pow(2,3));
 
     }
 

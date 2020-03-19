@@ -1,4 +1,4 @@
-public class Oppg1 {
+public class OppgEn1 {
 
     public static int sum = 0;
 
