@@ -10,7 +10,7 @@ public class Main {
 
         oppgEn1.sum(10);
 
-        //oppgave EN2
+        //oppgave EN2 k
 
         System.out.println("\n" + "Oppgave 1.2: ");
 
