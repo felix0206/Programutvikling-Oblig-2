@@ -10,7 +10,7 @@ public class Oppg1 {
                 sum(x);
         }
             if (x == 0)
-            System.out.println(sum);    //printer ut summen når input nummeret har nådd null.
+            System.out.println("summen blir: "+sum);    //printer ut summen når input nummeret har nådd null.
     }
 
 }
