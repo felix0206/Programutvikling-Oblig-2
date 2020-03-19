@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Summen av base^exponent blir: " + oppgEn2.pow(2,3));
 
 
-        //oppgave EN3
+        //oppgave EN3 k
 
         OppgEn3 oppgEn3 = new OppgEn3();
 
