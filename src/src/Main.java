@@ -1,6 +1,5 @@
 public class Main {
 
-
     public static void main(String[] args) {
 
         Oppg1 oppg1 = new Oppg1();
@@ -15,8 +14,6 @@ public class Main {
 
         System.out.println("Summen av base^exponent blir: " + oppg2.pow(2,3));
 
-
     }
-
 
 }

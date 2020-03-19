@@ -1,5 +1,3 @@
-import java.lang.Math.*;
-
 public class Oppg2 {
 
     public static int pow(int base, int exponent){
