@@ -67,6 +67,23 @@ public class Main {
         System.out.println("\n"+"Arrayet reversert: ");
         oppgTo2.reverserArray(nyttArray);
 
+
+        //oppg 2.3
+        System.out.println("\n" + "Oppgave 2.3: ");
+
+        OppgTo3 oppgTo3 = new OppgTo3();
+
+        oppgTo3.add(1);
+        oppgTo3.add(2);
+        oppgTo3.add(3);
+
+        System.out.println("Tallet på indeksen som er gitt er: " + oppgTo3.get(2));
+
+        System.out.println("Antall elementer er: " + oppgTo3.size());
+
+
+
+
     }
 
 

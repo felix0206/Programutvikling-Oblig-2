@@ -18,7 +18,7 @@ public class OppgTo3 {
             throw new IndexOutOfBoundsException("Index er større enn arraylisten!");
         }
         else{
-            return liste.get(index);
+            return liste.get(index).toString();
         }
     }
 
