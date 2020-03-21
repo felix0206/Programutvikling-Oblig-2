@@ -18,7 +18,7 @@ public class OppgTo3 {
     public static Object get(int index){
 
     }
-
+//
     public static int size(){
 
     }
