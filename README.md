@@ -1,5 +1,6 @@
 # Programutvikling-Oblig-2
-Obligatorisk oppgave i programutvikling. Hovedsaklig rekursjon.
+Obligatorisk oppgave i programutvikling.
+
 Oppgave 3:
 
 3.1:
