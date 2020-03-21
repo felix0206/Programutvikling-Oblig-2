@@ -27,4 +27,8 @@ public class Main {
         System.out.println(oppgEn3.baklengs(arr, 0, arr.length-1));
         }
 
+        //oppgave EN4
+
+
+
         }
