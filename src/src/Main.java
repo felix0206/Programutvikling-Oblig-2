@@ -82,6 +82,18 @@ public class Main {
         System.out.println("Antall elementer er: " + oppgTo3.size());
 
 
+        //Oppg 3.2
+        System.out.println("\n" + "Oppgave 3.2: ");
+
+        Lampe lampe = new Lampe();
+        lampe.KnappeTrykk();
+        lampe.printStatus(); //Grønn
+        lampe.KnappeTrykk();
+        lampe.printStatus(); //Oransje
+        lampe.KnappeTrykk();
+        lampe.printStatus(); //Rød
+        lampe.KnappeTrykk();
+        lampe.printStatus(); //Av
 
 
     }
