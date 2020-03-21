@@ -44,18 +44,28 @@ public class Main {
 
         OppgEn5 oppgEn5 = new OppgEn5();
 
-        System.out.println("Fant en match på posisjon: " + oppgEn5.helTall(array, 10));
+        System.out.println("Fant en match på posisjon: " + oppgEn5.helTall(array, 1));
         System.out.println("Hvis (-1), så var det ingen match.");
 
 
         //Oppg 2.1
         System.out.println("\n" + "Oppgave 2.1: ");
 
-        Object[] nyttArray = {"a", "b", "c"};
+        Integer[] nyttArray = {1, 2, 3};
 
         OppgTo1 oppgTo1 = new OppgTo1();
         System.out.print("Arrayet inneholder: ");
         oppgTo1.printArray(nyttArray);
+        System.out.println("");
+
+        //Oppg 2.2
+        System.out.println("\n" + "Oppgave 2.2: ");
+
+        OppgTo2 oppgTo2 = new OppgTo2();
+        System.out.println("Oprinnelige arrayet: ");
+        oppgTo1.printArray(nyttArray);
+        System.out.println("\n"+"Arrayet reversert: ");
+        oppgTo2.reverserArray(nyttArray);
 
     }
 
