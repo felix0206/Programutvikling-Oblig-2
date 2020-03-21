@@ -1,11 +1,22 @@
 public class OppgEn4 {
-    static int minst(int[] array, int start, int slutt){
-        int min = array[0];
-        for(int i : array){
-            if(array[i] < min){
-                min = array[i];
-            }
+
+    static int minTemp = Integer.MAX_VALUE;
+    static int count = 0;
+
+    public static int minst(int[] array) {
+
+        if (array.length == 1) {
+            return array[0];
         }
-        return minst(array, start, slutt);
+
+        if (count <= array.length - 1) {
+            if (array[count] < minTemp){
+                minTemp = array[count];
+            }
+            count++;
+            minst(array);
+        }
+
+        return minTemp;
     }
 }
