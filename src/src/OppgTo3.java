@@ -1,25 +1,28 @@
-import java.lang.Object;
-import java.util.AbstractCollection;
 import java.util.ArrayList;
-import java.util.List;
 
 public class OppgTo3 {
 
-    public abstract class AbstractList<E> extends AbstractCollection<E> implements List<E>{
-
-    }
-
-    ArrayList<Object> liste = new ArrayList();
+    static ArrayList<Object> liste = new ArrayList(5);
 
     public static boolean add(Object elem){
-
+        if (liste.size() == 5 ){
+            return false;
+        }else{
+            liste.add(elem);
+            return true;
+        }
     }
 
     public static Object get(int index){
-
+        if (index > liste.size() || index < 0){
+            throw new IndexOutOfBoundsException("Index er større enn arraylisten!");
+        }
+        else{
+            return liste.get(index);
+        }
     }
-//
-    public static int size(){
 
+    public static int size(){
+        return liste.size();
     }
 }
