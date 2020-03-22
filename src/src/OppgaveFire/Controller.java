@@ -49,7 +49,7 @@ public class Controller {
     public void SaveBtn(ActionEvent event) throws IOException {
 
         if (TxtFil.getText().isEmpty() || TxtVersion.getText().isEmpty() || !TxtVersion.getText().matches(numberRegex)){
-            LblFeilmeld.setText("Skriv inn filnavn og version! Bare tall i version");
+            LblFeilmeld.setText("Skriv inn filnavn og version! \n Bare tall i version");
         }else{
             try{
                 FileWriter fileWriter = new FileWriter(TxtFil.getText() + "-v" + TxtVersion.getText() + ".txt");
