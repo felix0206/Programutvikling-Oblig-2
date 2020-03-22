@@ -38,7 +38,6 @@ public class Controller {
 
     public void LoadBtn(ActionEvent event) throws Exception {
 
-        //Kopier og lim inn path fra TestTråd.txt inne i OppgaveeFire package.
         String path = TxtLoad.getText();
 
         Tråd load = new Tråd(path);
