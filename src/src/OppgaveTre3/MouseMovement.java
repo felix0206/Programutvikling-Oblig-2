@@ -7,20 +7,20 @@ import java.util.Observer;
 
 public class MouseMovement implements Observer {
 
-    // musepekeren sin posisjon ved klikk for å starte tegning
+    // Startposisjon for musepekeren.
     private double x=0.0;
     private double y=0.0;
 
     private List<Observer> observers = new LinkedList<>();
     Observable i;
 
-    // metoder for å finne ut hvor musepekeren er
+    // Getmetoder for X og Y akse.
     public double getX(){
-        return x;
+        return x; //Returnerer X-Posisjon
     }
 
     public double getY() {
-        return y;
+        return y;  //Returnerer Y-Posisjon
     }
 
 
@@ -32,7 +32,7 @@ public class MouseMovement implements Observer {
         observers.remove(o);
     }
 
-    // memtoden blir kalt på når musen blir flyttet på
+
     public void oppdagMovement() {
         x += 0.1;
         y += 0.1;
@@ -46,7 +46,6 @@ public class MouseMovement implements Observer {
             o.update((Observable) o, o);
         }
     }
-
 
     @Override
     public void update(Observable o, Object arg) {

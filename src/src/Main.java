@@ -1,6 +1,3 @@
-import OppgaveTo.OppgTo1;
-import OppgaveTo.OppgTo2;
-import OppgaveTo.OppgTo3;
 
 public class Main {
 
