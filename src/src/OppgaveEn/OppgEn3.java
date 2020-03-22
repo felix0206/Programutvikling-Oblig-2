@@ -1,3 +1,4 @@
+package OppgaveEn;
 
 public class OppgEn3 {
 

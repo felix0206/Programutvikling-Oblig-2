@@ -1,3 +1,5 @@
+package OppgaveTo;
+
 public class OppgTo1 {
     public static <array> void printArray(array[] liste){
 

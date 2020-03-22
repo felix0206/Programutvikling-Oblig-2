@@ -1,3 +1,5 @@
+package OppgaveEn;
+
 public class OppgEn4 {
 
     static int minTemp = Integer.MAX_VALUE;

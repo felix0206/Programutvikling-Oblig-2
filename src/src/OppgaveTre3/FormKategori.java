@@ -1,12 +1,12 @@
+package OppgaveTre3;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class FormKategori implements Watchable {
-    // oppretter en liste med former
-    private List<Shapes> kategorier;
+    private List<Shapes> kategorier;  // oppretter en liste med former
 
-    // de to funksjonene nedenfor er modifisert ut i fra forelesers notater
     public FormKategori(Shapes... items) {
         kategorier = Arrays.asList(items);
     }

@@ -1,4 +1,4 @@
-
+package OppgaveTre3;
 public class Sirkel extends Shapes{
     private String sirkel;
 

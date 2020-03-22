@@ -1,3 +1,5 @@
+package OppgaveEn;
+
 public class OppgEn1 {
 
     public static int sum = 0;

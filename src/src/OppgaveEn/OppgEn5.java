@@ -1,3 +1,5 @@
+package OppgaveEn;
+
 public class OppgEn5 {
 
     static int count = 0;

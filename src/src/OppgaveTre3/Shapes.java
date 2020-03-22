@@ -1,3 +1,5 @@
+package OppgaveTre3;
+
 import java.util.List;
 
 public abstract class Shapes implements Watchable {

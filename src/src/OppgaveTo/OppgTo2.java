@@ -1,3 +1,5 @@
+package OppgaveTo;
+
 public class OppgTo2 {
     public static <array> void reverserArray(array[] liste) {
 

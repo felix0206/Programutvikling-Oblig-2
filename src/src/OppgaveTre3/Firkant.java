@@ -1,3 +1,5 @@
+package OppgaveTre3;
+
 public class Firkant extends Shapes {
 
     private String firkant;

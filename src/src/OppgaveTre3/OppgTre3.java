@@ -1,3 +1,4 @@
+package OppgaveTre3;
 
 public class OppgTre3 extends Shapes {
     private Shapes ramme;
@@ -24,3 +25,4 @@ public class OppgTre3 extends Shapes {
         return null;
     }
 }
+
