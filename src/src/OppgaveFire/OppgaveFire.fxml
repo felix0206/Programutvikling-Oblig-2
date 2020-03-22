@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.web.*?>
 <?import java.lang.*?>
@@ -19,7 +20,15 @@
       <AnchorPane fx:id="anchor" prefHeight="650.0" prefWidth="650.0">
          <children>
             <HTMLEditor fx:id="htmlEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="18.0" prefHeight="488.0" prefWidth="614.0" />
-            <Button fx:id="LoadBtn" layoutX="272.0" layoutY="504.0" mnemonicParsing="false" onAction="#LoadBtn" prefHeight="44.0" prefWidth="107.0" text="Save" />
+            <Button fx:id="LoadBtn" layoutX="18.0" layoutY="499.0" mnemonicParsing="false" onAction="#LoadBtn" prefHeight="44.0" prefWidth="107.0" text="Load" />
+            <Button fx:id="SaveBtn" layoutX="18.0" layoutY="567.0" mnemonicParsing="false" onAction="#SaveBtn" prefHeight="44.0" prefWidth="107.0" text="Save" />
+            <TextField fx:id="TxtFil" alignment="CENTER" layoutX="139.0" layoutY="567.0" prefHeight="44.0" prefWidth="161.0" promptText="Filnavn" />
+            <TextField fx:id="TxtType" layoutX="315.0" layoutY="567.0" prefHeight="44.0" prefWidth="107.0" promptText="Version nummer" />
+            <Label fx:id="LblFeilmeld" layoutX="428.0" layoutY="567.0" prefHeight="44.0" prefWidth="204.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>
