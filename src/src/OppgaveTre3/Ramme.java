@@ -1,9 +1,9 @@
 package OppgaveTre3;
 
-public class OppgTre3 extends Shapes {
+public class Ramme extends Shapes {
     private Shapes ramme;
 
-    public OppgTre3(Shapes ramme) {
+    public Ramme(Shapes ramme) {
         this.ramme = ramme;
     }
 

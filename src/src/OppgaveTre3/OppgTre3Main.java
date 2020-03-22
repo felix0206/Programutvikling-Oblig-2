@@ -7,8 +7,8 @@ public class OppgTre3Main {
         Firkant tetragon = new Firkant("Tetragon");
         Sirkel sirkel = new Sirkel("Sirkel");
 
-        FormKategori Firkanter = new FormKategori(kvadrat, tetragon);
-        FormKategori Sirkler = new FormKategori(sirkel);
+        ShapeCategory Firkanter = new ShapeCategory(kvadrat, tetragon);
+        ShapeCategory Sirkler = new ShapeCategory(sirkel);
 
         //Lister opp formene.
         System.out.println("Kategorien (Firkant) inneholder følgende: " + Firkanter.getForm());
@@ -16,12 +16,12 @@ public class OppgTre3Main {
 
         System.out.println();
 
-        OppgTre3 ramme = new OppgTre3(tetragon);
+        Ramme ramme = new Ramme(tetragon);
         System.out.println(ramme);
         System.out.println(tetragon);
 
         System.out.println();
-        OppgTre3 rammeTo = new OppgTre3 (sirkel);
+        Ramme rammeTo = new Ramme (sirkel);
         System.out.println(rammeTo);
         System.out.println(sirkel);
     }

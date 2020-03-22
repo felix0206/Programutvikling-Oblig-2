@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FormKategori implements Watchable {
+public class ShapeCategory implements Watchable {
     private List<Shapes> kategorier;  // oppretter en liste med former
 
-    public FormKategori(Shapes... items) {
+    public ShapeCategory(Shapes... items) {
         kategorier = Arrays.asList(items);
     }
 
